@@ -59,7 +59,6 @@ int main(int argc, char* argv[]) {
         str_len = read(clnt_sock, command, sizeof(command) - 1);      
         if(str_len == -1)
             error_handling("read() error");
-        printf("python : %s", command);
             /* Command Filter */
             
 
